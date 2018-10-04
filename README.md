@@ -18,7 +18,7 @@
 < Server: fasthttp
 < Date: Thu, 04 Oct 2018 23:02:26 GMT
 < Content-Length: 0
-< Access-Control-Allow-Origin: http://localhost1                     <--- OK
+< Access-Control-Allow-Origin: http://localhost1                   #  <--- OK
 < Access-Control-Allow-Methods: GET
 < 
 * Connection #0 to host localhost left intact
@@ -42,7 +42,7 @@ curl -v http://localhost:8080/test -H 'Origin: http://localhost1'
 < Date: Thu, 04 Oct 2018 23:01:14 GMT
 < Content-Type: text/plain; charset=utf-8
 < Content-Length: 25
-< Access-Control-Allow-Origin: http://localhost1                     <--- OK
+< Access-Control-Allow-Origin: http://localhost1                   #  <--- OK
 < 
 * Connection #0 to host localhost left intact
 Requested path is "/test"
